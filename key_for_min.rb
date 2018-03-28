@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   hash.each do |(key, value) index|
-    
-   
+    if index < 2
+   index
     else
       nil
 end
